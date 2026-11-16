@@ -1,0 +1,13 @@
+[package]
+name = "shen_eternity_log"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["ShenEternity"]
+
+[lib]
+name = "shen_eternity_log"
+
+[dependencies]
+tokio = { version = "1.54.1", features = ["full"] }
+chrono = "0.4.45"
